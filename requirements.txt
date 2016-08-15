@@ -71,6 +71,7 @@ redis==2.10.5             # via rb, sentry
 requests[security]==2.10.0  # via sentry
 selenium==2.53.6          # via sentry
 sentry-github==0.1.2
+sentry-auth-google==0.1.0
 sentry==8.6.0
 setproctitle==1.1.10      # via sentry
 simplejson==3.8.2         # via sentry
