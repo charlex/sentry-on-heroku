@@ -5,6 +5,6 @@ django-secure
 django-storages
 ndg-httpsclient  # required by requests
 psycopg2
-sentry
+sentry==8.7.0
 sentry-auth-google
 sentry-github
