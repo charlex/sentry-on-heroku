@@ -1,3 +1,3 @@
-sudo: true
-install: "pip install -r requirements.txt"
+sudo: false
+install: "pip install -r requirements.txt --user travis"
 script: python -m py_compile sentry.conf.py
