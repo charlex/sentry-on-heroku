@@ -1,0 +1,2 @@
+sudo: false
+script: python -m py_compile sentry.conf.py
