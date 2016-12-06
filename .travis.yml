@@ -5,3 +5,5 @@ script: python -m py_compile sentry.conf.py
 install:
   - pip install --upgrade pip
   - pip install -r requirements.txt
+notifications:
+  email: false
