@@ -2,6 +2,7 @@ boto
 dj-database-url
 django-bcrypt
 django-secure
+django-social-auth
 django-storages
 ndg-httpsclient  # required by requests
 psycopg2
