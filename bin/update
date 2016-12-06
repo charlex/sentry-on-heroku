@@ -4,5 +4,5 @@ version="$1"
 
 pip install --upgrade pip
 pip install pip-tools
-sed 's/8.7.0/$1/g' requirements.in
+sed -i 's/8.7.0/$1/g' requirements.in
 pip-compile --output-file requirements.txt requirements.in
