@@ -25,10 +25,11 @@ django-debug-toolbar==1.3.2  # via sentry
 django-jsonfield==0.9.13  # via sentry
 django-picklefield==0.3.2  # via sentry
 django-secure==1.0.1
+django-social-auth==0.7.28
 django-storages==1.4.1
 django-sudo==2.1.0        # via sentry
 django-templatetag-sugar==1.0  # via sentry
-django==1.6.11            # via django-bitfield, django-debug-toolbar, django-secure, sentry
+django==1.6.11            # via django-bitfield, django-debug-toolbar, django-secure, django-social-auth, sentry
 djangorestframework==2.3.14  # via sentry
 docutils==0.12            # via botocore
 email-reply-parser==0.2.0  # via sentry
@@ -46,7 +47,7 @@ libsourcemap==0.5.0       # via sentry
 lxml==3.6.1               # via sentry, toronado
 mock==1.0.1               # via exam, sentry
 ndg-httpsclient==0.4.2
-oauth2==1.9.0.post1       # via sentry
+oauth2==1.9.0.post1       # via django-social-auth, sentry
 percy==0.4.1              # via sentry
 petname==1.7              # via sentry
 pillow==3.2.0             # via sentry
@@ -62,7 +63,7 @@ pytest-html==1.9.0        # via sentry
 pytest==2.6.4             # via pytest-django, pytest-html, sentry
 python-dateutil==2.5.3    # via botocore, sentry
 python-memcached==1.58    # via sentry
-python-openid==2.2.5      # via sentry
+python-openid==2.2.5      # via django-social-auth, sentry
 python-u2flib-server==4.0.1  # via sentry
 python-utils==2.0.0       # via progressbar2
 pytz==2016.6.1            # via celery
