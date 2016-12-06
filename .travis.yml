@@ -4,4 +4,4 @@ sudo: false
 script: python -m py_compile sentry.conf.py
 install:
   - pip install --upgrade pip
-  - pip install -r requirements.txt --user travis
+  - pip install -r requirements.txt
