@@ -1,3 +1,5 @@
 sudo: false
-install: "pip install --upgrade pip; pip install -r requirements.txt --user travis"
 script: python -m py_compile sentry.conf.py
+install:
+  - pip install --upgrade pip
+  - pip install -r requirements.txt --user travis
