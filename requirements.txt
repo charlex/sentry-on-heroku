@@ -6,6 +6,7 @@
 #
 amqp==1.4.9               # via kombu
 anyjson==0.3.3            # via kombu
+appdirs==1.4.0            # via setuptools
 billiard==3.3.0.23        # via celery
 boto3==1.4.2              # via sentry
 boto==2.42.0
@@ -48,6 +49,7 @@ lxml==3.6.1               # via sentry, toronado
 mock==1.0.1               # via exam, sentry
 ndg-httpsclient==0.4.2
 oauth2==1.9.0.post1       # via django-social-auth, sentry
+packaging==16.8           # via setuptools
 percy==0.4.1              # via sentry
 petname==1.7              # via sentry
 pillow==3.2.0             # via sentry
@@ -58,6 +60,7 @@ py==1.4.31                # via pytest
 pyasn1==0.1.9             # via cryptography, requests
 pycparser==2.14           # via cffi
 pyopenssl==16.0.0         # via ndg-httpsclient, requests
+pyparsing==2.1.10         # via packaging
 pytest-django==2.9.1      # via sentry
 pytest-html==1.9.0        # via sentry
 pytest==2.6.4             # via pytest-django, pytest-html, sentry
@@ -77,10 +80,10 @@ s3transfer==0.1.9         # via boto3
 selenium==3.0.0b3         # via sentry
 sentry-auth-google==0.1.0
 sentry-github==0.1.2
-sentry==8.11.0
+sentry==8.13.0
 setproctitle==1.1.10      # via sentry
 simplejson==3.8.2         # via sentry
-six==1.10.0               # via cryptography, django-bitfield, pyopenssl, python-dateutil, python-memcached, python-utils, qrcode, sentry, structlog
+six==1.10.0               # via cryptography, django-bitfield, packaging, pyopenssl, python-dateutil, python-memcached, python-utils, qrcode, sentry, setuptools, structlog
 South==1.0.1              # via sentry
 sqlparse==0.2.0           # via django-debug-toolbar
 statsd==3.1               # via sentry

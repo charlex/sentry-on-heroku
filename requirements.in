@@ -6,6 +6,6 @@ django-social-auth
 django-storages
 ndg-httpsclient  # required by requests
 psycopg2
-sentry==8.11.0
+sentry==8.13.0
 sentry-auth-google
 sentry-github
