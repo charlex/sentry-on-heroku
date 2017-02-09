@@ -56,7 +56,7 @@ Follow the steps below to get Sentry up and running on Heroku:
 
         git push heroku master
 
-7. Run Sentry's database migrations::
+7. Sentry's database migrations are automatically run as part of the Heroku `release phase`_ ::
 
         heroku run "sentry --config=sentry.conf.py upgrade --noinput"
 
@@ -65,6 +65,9 @@ Follow the steps below to get Sentry up and running on Heroku:
         heroku run "sentry --config=sentry.conf.py createuser"
 
 That's it!
+
+.. _release phase: https://devcenter.heroku.com/articles/release-phase
+
 
 
 Email notifications
