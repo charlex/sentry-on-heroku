@@ -131,8 +131,8 @@ SENTRY_TSDB = 'sentry.tsdb.redis.RedisTSDB'
 # Any Django storage backend is compatible with Sentry. For more solutions see
 # the django-storages package: https://django-storages.readthedocs.org/en/latest/
 
-SENTRY_FILESTORE = 'storages.backends.s3boto.S3BotoStorage'
-SENTRY_FILESTORE_OPTIONS = {}
+SENTRY_OPTIONS['filestore.backend'] = 'storages.backends.s3boto.S3BotoStorage'
+SENTRY_OPTIONS['filestore.options'] = {}
 
 AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
@@ -265,3 +265,5 @@ BITBUCKET_CONSUMER_SECRET = os.environ.get('BITBUCKET_CONSUMER_SECRET')
 # If this file ever becomes compromised, it's important to regenerate your SECRET_KEY
 # Changing this value will result in all current sessions being invalidated
 SENTRY_OPTIONS['system.secret-key'] = os.environ['SECRET_KEY']
+
+SENTRY_DIGESTS = 'sentry.digests.backends.redis.RedisBackend'
