@@ -4,4 +4,4 @@ django-secure
 ndg-httpsclient  # required by requests
 psycopg2
 sentry
-sentry-plugins
+sentry-slack
