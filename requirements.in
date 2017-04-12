@@ -7,3 +7,4 @@ sentry
 sentry-flowdock
 sentry-github
 sentry-plugins
+sentry-slack
