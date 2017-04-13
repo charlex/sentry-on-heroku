@@ -54,7 +54,7 @@ SENTRY_OPTIONS['redis.clusters'] = {
     }
 }
 
-SENTRY_DIGESTS = 'sentry.digests.backends.redis.RedisBackend'
+# SENTRY_DIGESTS = 'sentry.digests.backends.redis.RedisBackend'
 
 
 #########
